@@ -1,0 +1,46 @@
+# Swift/Xcode build files
+# Derived Data
+DerivedData/
+
+# Build products
+build/
+
+# User-specific Xcode workspace data
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager build folder
+.build/
+
+# Other typical patterns from GitHub Swift.gitignore
+# App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+# CocoaPods
+# Pods/
+
+# Carthage
+# Carthage/Checkouts
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
